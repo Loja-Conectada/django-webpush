@@ -44,6 +44,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='pushinformation',
             name='user',
-            field=models.ForeignKey(related_name='webpush_info', blank=True, to=settings.AUTH_USER_MODEL, null=True, on_delete=models.CASCADE),
+            field=models.ForeignKey(related_name='webpush_info', blank=True, to=settings.USER_MODEL, null=True, on_delete=models.CASCADE),
         ),
     ]

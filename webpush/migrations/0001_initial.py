@@ -9,7 +9,7 @@ class Migration(migrations.Migration):
 
     dependencies = [
         #migrations.swappable_dependency(settings.AUTH_USER_MODEL),
-        ('dao', '0001_initital')
+        ('dao', '0001_initial')
     ]
 
     operations = [
